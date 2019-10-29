@@ -54,9 +54,9 @@ class MyApp extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
-          _buildButtonColumn(color, Icons.call, 'CALL'),
-          _buildButtonColumn(color, Icons.near_me, 'ROUTE'),
-          _buildButtonColumn(color, Icons.share, 'SHARE'),
+          _buildButtonColumn(color, Icons.battery_std, 'CALL'),
+          _buildButtonColumn(color, Icons.whatshot, 'ROUTE'),
+          _buildButtonColumn(color, Icons.branding_watermark, 'SHARE'),
         ],
       ),
     );
