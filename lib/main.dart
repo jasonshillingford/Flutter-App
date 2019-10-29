@@ -40,10 +40,10 @@ class MyApp extends StatelessWidget {
           ),
           /*3*/
           Icon(
-            Icons.star,
-            color: Colors.red[500],
+            Icons.check_circle,
+            color: Colors.green[500],
           ),
-          Text('41'),
+          Text(' 41'),
         ],
       ),
     );
