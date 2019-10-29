@@ -41,7 +41,7 @@ class MyApp extends StatelessWidget {
           /*3*/
           Icon(
             Icons.check_circle,
-            color: Colors.green[500],
+            color: Colors.yellowAccent[500],
           ),
           Text(' 41'),
         ],
